@@ -17,7 +17,7 @@ mv ~/.cache/nvim{,.bak}
 - Clone this repository:
 
 ```bash
-git clone https://github.com/afloetotto/nvimconfig ~/.config/nvim
+git clone https://github.com/afloetotto/nvim-config ~/.config/nvim
 ```
 
 If you now start neovim with `nvim`, it should load the configuration and start
