@@ -1,0 +1,19 @@
+snippet fig "Insert LaTeX figure" b
+\begin{figure}[${1:htbp}]
+    \centering
+    \includegraphics[width=${2:\linewidth}]{${3:path/to/image}}
+    \caption{${4:Caption text}}
+    \label{fig:${5:label}}
+\end{figure}
+$0
+endsnippet
+
+snippet ali "Align environment" b
+\begin{align$1}
+	$0
+\end{align$1}
+endsnippet
+
+snippet bra "brackets" b
+\left( $0 \right)
+endsnippet

@@ -1,0 +1,30 @@
+{
+    // general
+    "suggest.maxCompleteItemCount": 10,
+    "coc.preferences.formatOnSave": true,
+    // deactivate inlay hints
+    "diagnostic.virtualText": false,
+    "inlayHint.enable": false,
+
+    // python formatting
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "black",
+    "python.formatting.autopep8Path": "",
+    "python.formatting.yapfPath": "",
+    // python linting
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.mypyEnabled": false,
+
+    // markdown
+	"markdownlint.config": {
+        "default": true,
+        "MD013": false  // example: disable line length rule
+   },
+
+   // snippets
+  "snippets.ultisnips.directories": ["UltiSnips"],
+  "coc.preferences.snippetSupport": true,
+  "suggest.snippetIndicator": "💡"
+}

@@ -1,0 +1,9 @@
+snippet fig "Insert Typst figure" b
+#figure(
+  image(${1:"path/to/image"}, width: ${2: 100}%),
+  caption: [
+	${3:Caption text}
+  ],
+)
+$0
+endsnippet
